@@ -1,0 +1,12 @@
+#image1 {
+  width: 400px;
+
+  height: 300px;
+}
+
+#footer {
+  opacity: calc(90%);
+}
+#icon {
+  --bs-icon-link-transform: translate3d(0, -0.125rem, 0);
+}
