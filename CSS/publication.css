@@ -1,0 +1,132 @@
+.highlighted {
+  background-color: yellow;
+}
+
+.elementor-heading-title {
+  color: #cc2e72;
+  font-family: "Verdana", Sans-serif;
+  text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.29);
+  font-size: 29px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+.table {
+  color: aliceblue;
+}
+.link {
+  color: rgb(239, 239, 242);
+}
+
+.carousel-caption {
+  width: 65%;
+}
+
+#link:hover {
+  background-color: rgb(8, 53, 187);
+  color: black;
+  animation: popBackground 1s ease-in-out;
+}
+.carousel-item.active::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity value */
+}
+/* 
+#publication {
+  margin: 10px 10px;
+  padding-left: 10px;
+  font-size: 25px;
+} */
+
+/* For Visible only on xs */
+.sm-mu-slider-title {
+  color: #111010;
+  font-family: "Arvo", serif;
+  font-size: 30px;
+  line-height: 160px;
+  font-weight: 400;
+}
+.mu-slider-small-title {
+  font-family: "Arvo", serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.mu-slider-title {
+  color: #120104;
+  font-family: "Arvo", serif;
+  text-shadow: 0px 4px 7px rgb(10, 197, 54);
+  font-size: 30px;
+  line-height: 90px;
+  font-weight: 400;
+}
+/* Navbar */
+.navbar {
+  /* transition-property: all 0.5s; */
+  transition: all 0.5s;
+}
+
+/* navbar scroll */
+
+.navbar-scrolledDesktop {
+  box-shadow: 0 3px 10px rgba(6, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  padding: 10px 0;
+}
+
+.navbar-scrolledTablet {
+  box-shadow: 0 3px 10px rgba(6, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  padding: 10px 0;
+}
+
+.navbar-scrolledMobile {
+  box-shadow: 0 3px 10px rgba(6, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.8) !important;
+  padding: 10px 0;
+}
+
+.navbar-nav a {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.navbar-light .navbar-brand .dropdown-menu .dropdown-item {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #06cfea;
+  font-style: oblique;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #1b2fcc;
+  font-weight: bold;
+}
+.navbar-toggler-icon:hover {
+  color: #1b2fcc;
+}
+
+/* End of Navbar scroll */
+
+/* End of Navbar */
